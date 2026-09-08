@@ -22,8 +22,10 @@ though both the front and back shells currently do need some supports
 There's no built-in FloppyEmu, because the LisaFPGA has a floppy emulator
 built in (ESFloppy) — no separate hardware needed. The case already has
 cutouts for the ESFloppy control buttons and a window to see the screen
-from the back. Once ESFloppy support is finished, front-mounting that
-screen and those buttons (via cable) is a possibility for a future
+from the back, dressed up with a shroud
+(`Lisa_Mini_ESFloppy_Shroud.obj`) since that opening currently sits well
+below the back surface. Once ESFloppy support is finished, front-mounting
+that screen and those buttons (via cable) is a possibility for a future
 revision — though the widescreen LCD covers much of that area, so it may
 not be feasible.
 
@@ -50,6 +52,7 @@ docs/
 | `Lisa_Mini_Lisa_Logo_Plate.obj` | Lisa logo badge insert (see note below) |
 | `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` | Blank badge insert for the bezel's second holder (see note below) |
 | `Lisa_Mini_Power_Switch.obj` | Cap that sits over the LisaFPGA board's own switch — no separate switch hardware |
+| `Lisa_Mini_ESFloppy_Shroud.obj` | Dresses up the rear ESFloppy screen opening, which currently sits well below the back surface |
 
 See [`docs/BOM.md`](docs/BOM.md) for the LCD panel, LisaFPGA board, and
 hardware you'll need, and [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md) for the

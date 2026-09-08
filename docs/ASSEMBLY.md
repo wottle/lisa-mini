@@ -48,7 +48,12 @@
 
    ![Back shell with barrel jack and buck converters wired](../images/2_back_power_and_buck_converters.jpeg)
 
-5. **Install the power switch cap**
+5. **Install the ESFloppy shroud**
+   - Press-fit `Lisa_Mini_ESFloppy_Shroud.obj` into the rear ESFloppy
+     screen opening — it dresses up that opening, which currently sits
+     well below the back surface
+
+6. **Install the power switch cap**
    - Before installing the LisaFPGA board, snap `Lisa_Mini_Power_Switch.obj`
      into its mounting point in the rear shell — the photo below shows its
      orientation. Do this now: once the LisaFPGA board is installed in the
@@ -57,12 +62,12 @@
 
    ![Power switch cap orientation before installing the LisaFPGA board](../images/3_power_switch_orientation.jpeg)
 
-6. **Install the LisaFPGA board**
+7. **Install the LisaFPGA board**
    - Mount the LisaFPGA board into the rear shell
      (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with
      screws — this also covers up the barrel jack wiring underneath, and
      seats the board's onboard switch under the power switch cap from
-     step 5
+     step 6
    - Connect the buck converters' 5V outputs to the LisaFPGA board's power
      input and, optionally, an inrush capacitor at the LisaFPGA's power
      connector
@@ -71,7 +76,7 @@
 
 ### Connect and close
 
-7. **Wire it up**
+8. **Wire it up**
    - Connect the second buck converter's 5V output to the LCD controller
      board via a USB-C connector rather than a permanent connection
    - Connect HDMI between the LisaFPGA and the LCD controller board
@@ -84,11 +89,11 @@
 
    ![HDMI and 5V power connections between the back and front shells](../images/5_connections_between_back_and_front.jpeg)
 
-8. **Join front and back shells**
+9. **Join front and back shells**
    - The BOM's 4 M3x4mm screws are all accounted for by the LCD mount
      clips in step 2, so this joint is snap-fit
    - TODO: confirm snap-fit engagement points / any assembly order that
      matters
 
-9. **Final check**
+10. **Final check**
    - Power on and verify display output before fully closing up the case

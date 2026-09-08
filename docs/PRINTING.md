@@ -19,6 +19,8 @@
 - `Lisa_Mini_Lisa_Logo_Plate.obj` — TODO
 - `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — TODO
 - `Lisa_Mini_Power_Switch.obj` — TODO
+- `Lisa_Mini_ESFloppy_Shroud.obj` — no supports needed; recommended in
+  black filament since it's visible on the back of the case
 
 Slicer plating for both shells:
 

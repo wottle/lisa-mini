@@ -36,3 +36,5 @@
 - Added 5 assembly photos and corrected the power switch step: the cap
   must be installed before the LisaFPGA board, since the board covers
   access to it afterward
+- Added `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy
+  screen opening; print in black, no supports needed
