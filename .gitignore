@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+
+# OpenSCAD editor backups/cache
+*.scad.bak
+*-cache.txt
