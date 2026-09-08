@@ -53,11 +53,14 @@ geometry. `models/source/lisa_design.md` documents the design reference
 image this was built against and the reasoning behind the current shape —
 read it before changing proportions.
 
-Note: the current `print-ready/` OBJs (front/back/clips/logo plate/power
-switch) reflect a more detailed, later iteration of the design than the
-`.scad` source file captures; treat the `.scad` file as the best starting
-point for shell/vent/leg geometry, not as a 1:1 match to the exact release
-files.
+Note: the `print-ready/` OBJs are further along than the `.scad` source
+file. The OpenSCAD model produced a simplified starter shell, which was
+then brought into TinkerCAD for significant additional work — mounting
+points, port/switch openings, LCD clip geometry, and the logo plate —
+that isn't reflected in the `.scad` file. Treat the `.scad` file as the
+best starting point for overall shell/vent/leg proportions, not as a 1:1
+source for the exact release files; there's currently no single parametric
+source that captures the final printed geometry end to end.
 
 ## Printing
 
