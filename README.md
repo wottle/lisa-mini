@@ -62,6 +62,17 @@ best starting point for overall shell/vent/leg proportions, not as a 1:1
 source for the exact release files; there's currently no single parametric
 source that captures the final printed geometry end to end.
 
+## Power design notes
+
+The original plan was to power the LCD controller board directly off a 5V
+USB-C input. That controller board didn't work reliably on 5V USB-C — the
+board was later damaged during troubleshooting, so it's unconfirmed whether
+5V USB-C itself was the actual problem or just correlated with what killed
+it. The working setup, and what the BOM/case now assume, is a single 12V
+barrel jack input split across two buck converters into separate 5V lines
+for the LisaFPGA and the LCD controller. If you try 5V USB-C directly into
+the controller board, treat it as unverified and have a fallback plan.
+
 ## Printing
 
 See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
