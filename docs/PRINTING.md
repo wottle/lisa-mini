@@ -60,8 +60,10 @@ parts.
 
 ## Material
 
-<!-- TODO: note tested filament (PLA/PETG/ABS) and any warping considerations
-     for the larger front/back shells -->
+Printed in [Polar Filament Retro Platinum PLA](https://polarfilament.com/products/retro-platinum-pla-1kg-1-75mm)
+— a metallic silver/platinum finish designed for a classic-computing look.
+
+<!-- TODO: note any warping considerations for the larger front/back shells -->
 
 ## Known print issues
 

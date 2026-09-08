@@ -38,3 +38,4 @@
   access to it afterward
 - Added `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy
   screen opening; print in black, no supports needed
+- Documented filament used: Polar Filament Retro Platinum PLA
