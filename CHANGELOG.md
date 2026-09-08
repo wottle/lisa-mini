@@ -6,3 +6,5 @@
   plate, and power switch bezel as print-ready OBJ files
 - Documented full BOM (LCD, LCD controller, buck converters, barrel jack,
   screws, cabling)
+- Documented bed size requirement (350mm), print orientation, and back
+  shell's support requirement

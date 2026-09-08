@@ -79,7 +79,9 @@ See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
 
 - Wall thickness: ~2.4mm
 - Infill: 15–20%
-- No overhangs > 45° on the main shell
+- Bed size: 350mm — the model is 330mm wide (front face down, back face up)
+- Front shell needs no supports; back shell currently needs supports for
+  the skirt between the legs
 - Snap-fit / screw assembly, no glue required
 
 ## License
