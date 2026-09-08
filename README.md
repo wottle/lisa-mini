@@ -68,11 +68,10 @@ source that captures the final printed geometry end to end.
 The case's screen opening is sized for the original 9.7" 4:3 Lisa-style
 window, but the LCD actually used is an 11.6" 1080p widescreen panel — the
 image doesn't natively fill (or center in) that opening. This build
-requires [a fork of the LisaFPGA software](#) that adds the ability to
-offset the displayed image so it lands correctly within the case's opening.
-Stock LisaFPGA firmware will not position the image correctly for this
-case.
-<!-- TODO: add link to the LisaFPGA fork repo -->
+requires [wottle/LisaFPGA](https://github.com/wottle/LisaFPGA), a fork of
+the LisaFPGA software that adds the ability to offset the displayed image
+so it lands correctly within the case's opening. Stock LisaFPGA firmware
+will not position the image correctly for this case.
 
 ## Power design notes
 
