@@ -96,6 +96,9 @@ the LisaFPGA software that adds the ability to offset the displayed image
 so it lands correctly within the case's opening. Stock LisaFPGA firmware
 will not position the image correctly for this case.
 
+**Flash it before assembling the case** — see
+[`docs/ASSEMBLY.md`](docs/ASSEMBLY.md#before-you-start) for why.
+
 ## Power design notes
 
 The original plan was to power the LCD controller board directly off a 5V

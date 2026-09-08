@@ -10,6 +10,12 @@
   before final assembly
 - Clean up any stringing/support marks around the vent lines and screen
   opening
+- **Flash [the LisaFPGA fork](https://github.com/wottle/LisaFPGA) before
+  assembling the case.** Once assembled, the LisaFPGA's USB-C port only
+  has the low-profile power cable plugged in (no data), so you lose the
+  ability to flash new software. To update later, remove the 4 screws
+  holding the LisaFPGA to the back shell, unplug the low-profile USB-C
+  power cable, and plug in a full USB-C power+data cable to reflash it.
 
 ## Steps
 

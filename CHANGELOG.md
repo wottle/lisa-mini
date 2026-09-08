@@ -52,3 +52,7 @@
 - Noted the low-profile USB-C cable and U-shaped HDMI adapter must be
   plugged into the LisaFPGA board before it's screwed down -- the case's
   tight clearance makes them hard to attach afterward
+- Added a pre-assembly prerequisite: flash the LisaFPGA fork before
+  closing up the case, since the low-profile USB-C cable carries power
+  only, not data -- documented the reflash procedure (remove 4 screws,
+  swap in a full USB-C power+data cable) for later updates
