@@ -20,10 +20,17 @@
 | 2 | [Buck converter](https://www.amazon.com/dp/B07VVXF7YX) | Steps 12V input down for the LCD/controller and LisaFPGA |
 | 1 | [Panel-mount barrel jack, 12V input](https://www.amazon.com/dp/B0DLKN8J7M) | Mounts through the rear shell for power input |
 | 1 | Power switch (rocker or pushbutton) | Mounts in `Lisa_Mini_Power_Switch.obj` |
+| 1 | [Right-angle USB-C cable, thin/low-profile](https://www.amazon.com/dp/B0FGNB87BX) | LisaFPGA fits tightly in the case — a straight or bulky connector won't clear |
+| 1 | [U-shaped HDMI adapter/connector](https://www.amazon.com/dp/B0DB5KKDN2) | Routes HDMI out of the LisaFPGA within the case's tight clearance |
+| 1 | [Thin HDMI cable](https://www.amazon.com/dp/B0FB3YDYTT) | LisaFPGA to LCD controller board, low-profile to fit the case |
+| 1 | [5V USB-C pigtail cable](https://www.amazon.com/dp/B0GBGLNR52) | Powers the LCD controller board off one of the buck converters |
 
 Links are the specific parts used in the build — equivalents will generally
 work, but panel/controller pairing in particular should match (a mismatched
-LCD/controller pair won't drive correctly).
+LCD/controller pair won't drive correctly). The LisaFPGA sits in a tight
+fit inside the case, so the right-angle USB-C, U-shaped HDMI, and low-profile
+HDMI cable aren't just convenience picks — standard straight connectors or
+thicker cables may not clear.
 
 ## Hardware
 
