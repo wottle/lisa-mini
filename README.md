@@ -15,8 +15,9 @@ in an enclosure that echoes the look of the original 1983 Lisa: front vent
 lines, a screen that leans back while the case stays vertical, and integrated
 L-shaped feet with no visible seams between leg and case.
 
-Designed for FDM printing on a standard-size bed, no supports required for
-the main shell (all overhangs kept under 45°).
+Designed for FDM printing, optimized to minimize supports where possible —
+though the back shell currently does need supports (see
+[Printing](#printing) below).
 
 ## What's here
 
