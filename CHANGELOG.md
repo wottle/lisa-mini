@@ -29,8 +29,10 @@
   layer), not just the back; noted LCD clips + power switch print on the
   same plate as the front shell
 - Added print orientation screenshots to PRINTING.md
-- Rewrote ASSEMBLY.md into front/back/connect-and-close sections, removed
-  the power switch as a standalone step (it snaps on as the shells
-  close), and documented the barrel jack wiring, LCD controller mounting,
-  and the quick-disconnect USB-C connectors between front- and
-  back-mounted components
+- Rewrote ASSEMBLY.md into front/back/connect-and-close sections, and
+  documented the barrel jack wiring, LCD controller mounting, and the
+  quick-disconnect USB-C connectors between front- and back-mounted
+  components
+- Added 5 assembly photos and corrected the power switch step: the cap
+  must be installed before the LisaFPGA board, since the board covers
+  access to it afterward

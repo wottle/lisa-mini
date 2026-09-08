@@ -1,8 +1,7 @@
 # Assembly Instructions
 
-<!-- TODO: replace with real step-by-step instructions + photos once the
-     build has been done and documented. Structure below is a starting
-     framework. -->
+<!-- TODO: a few fit/tolerance details below are still unconfirmed --
+     see the inline TODOs. -->
 
 ## Before you start
 
@@ -25,7 +24,10 @@
    - Seat the LCD panel into the front bezel
    - Secure with the 4 LCD mount clips, each fastened with an M3x4mm screw
    - Stick the LCD controller board to the back of the LCD panel with
-     double-sided tape
+     double-sided tape, and connect the LCD's ribbon cable and small
+     2-pin power connector to it
+
+   ![LCD and controller board mounted in the front shell](../images/1_lcd_mounting.jpg)
 
 3. **Attach the logo plates**
    - Press-fit or glue `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa
@@ -38,49 +40,55 @@
 
 ### Back assembly
 
-4. **Install the power input**
+4. **Install the power input and buck converters**
    - Mount the 12V panel-mount barrel jack into the rear shell
+   - Mount the two buck converters along the top edge of the rear shell
    - Wire the barrel jack's 12V output, splitting it into two leads — one
      to each buck converter's input
 
-5. **Install the LisaFPGA board**
+   ![Back shell with barrel jack and buck converters wired](../images/2_back_power_and_buck_converters.jpeg)
+
+5. **Install the power switch cap**
+   - Before installing the LisaFPGA board, snap `Lisa_Mini_Power_Switch.obj`
+     into its mounting point in the rear shell — the photo below shows its
+     orientation. Do this now: once the LisaFPGA board is installed in the
+     next step, it covers this area and the switch cap can no longer be
+     placed.
+
+   ![Power switch cap orientation before installing the LisaFPGA board](../images/3_power_switch_orientation.jpeg)
+
+6. **Install the LisaFPGA board**
    - Mount the LisaFPGA board into the rear shell
      (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with
-     screws — this also covers up the barrel jack wiring underneath
-   - TODO: confirm standoff/screw count
+     screws — this also covers up the barrel jack wiring underneath, and
+     seats the board's onboard switch under the power switch cap from
+     step 5
+   - Connect the buck converters' 5V outputs to the LisaFPGA board's power
+     input and, optionally, an inrush capacitor at the LisaFPGA's power
+     connector
+
+   ![LisaFPGA board installed and screwed to standoffs](../images/4_LisaFPGA_board_install.jpeg)
 
 ### Connect and close
 
-6. **Wire it up**
-   - Connect each buck converter's 5V output to the LisaFPGA and to the
-     LCD controller board via USB-C connectors rather than a permanent
-     connection — this lets the front-mounted parts (LCD + controller
-     board) and back-mounted parts (LisaFPGA + power) quick-disconnect
-     from each other, which makes it much easier to separate the shells
-     later for maintenance
-   - Connect video (HDMI) between the LisaFPGA and the LCD controller
-     board
+7. **Wire it up**
+   - Connect the second buck converter's 5V output to the LCD controller
+     board via a USB-C connector rather than a permanent connection
+   - Connect HDMI between the LisaFPGA and the LCD controller board
 
-7. **Join front and back shells**
+   These connections use USB-C connectors rather than soldered/permanent
+   wiring, deliberately — it lets the front-mounted parts (LCD + controller
+   board) and back-mounted parts (LisaFPGA + power) quick-disconnect from
+   each other, making it much easier to separate the shells for
+   maintenance.
+
+   ![HDMI and 5V power connections between the back and front shells](../images/5_connections_between_back_and_front.jpeg)
+
+8. **Join front and back shells**
    - The BOM's 4 M3x4mm screws are all accounted for by the LCD mount
      clips in step 2, so this joint is snap-fit
-   - Snap `Lisa_Mini_Power_Switch.obj` on over the LisaFPGA board's own
-     onboard switch as the shells close — no separate switch hardware
-     needed
    - TODO: confirm snap-fit engagement points / any assembly order that
      matters
 
-8. **Final check**
+9. **Final check**
    - Power on and verify display output before fully closing up the case
-
-## Photos
-
-Planned build photos, to be added once taken:
-
-- Front shell with the LCD mounted and the LCD controller board taped to
-  its back
-- Back shell with the barrel jack installed and wiring split to the two
-  buck converter inputs (before the LisaFPGA covers it)
-- Back shell with the LisaFPGA installed and screwed down to its standoffs
-
-<!-- TODO: add the photos above to ../images/ and reference them here -->
