@@ -19,6 +19,14 @@ Designed for FDM printing, optimized to minimize supports where possible —
 though the back shell currently does need supports (see
 [Printing](#printing) below).
 
+There's no built-in FloppyEmu, because the LisaFPGA has a floppy emulator
+built in (ESFloppy) — no separate hardware needed. The case already has
+cutouts for the ESFloppy control buttons and a window to see the screen
+from the back. Once ESFloppy support is finished, front-mounting that
+screen and those buttons (via cable) is a possibility for a future
+revision — though the widescreen LCD covers much of that area, so it may
+not be feasible.
+
 ## What's here
 
 ```

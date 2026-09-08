@@ -48,4 +48,3 @@ thicker cables may not clear.
 - A few capacitors across the LCD and LisaFPGA power rails, to smooth
   inrush/startup current draw — not required, but helps if you see
   brownout/reset issues at power-on
-- FloppyEmu (slot not yet modeled — case allows for future add-on)

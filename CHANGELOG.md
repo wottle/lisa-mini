@@ -13,3 +13,7 @@
   screen opening
 - Removed separate power switch hardware from BOM — the printed part sits
   over the LisaFPGA board's own switch; confirmed LCD mount clip qty is 4
+- Removed incorrect FloppyEmu mention from BOM — LisaFPGA's built-in
+  ESFloppy needs no separate hardware; documented the case's existing
+  ESFloppy button cutouts and rear screen window, and noted a possible
+  future front-mount revision
