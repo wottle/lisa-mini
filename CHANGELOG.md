@@ -68,3 +68,6 @@
 - Added 4 new photos to the README: Lisa Office System running on the
   assembled unit (new hero image), side profile, labeled back, and rear
   I/O closeup
+- Published to Thingiverse and Creality Cloud; linked both from the
+  README. Skipping MakerWorld/Bambu for now -- no Bambu printer has a bed
+  large enough for the 330mm-wide shells

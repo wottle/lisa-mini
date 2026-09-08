@@ -139,7 +139,8 @@ same license. See [`LICENSE`](LICENSE).
 
 ## Also published on
 
-<!-- TODO: fill in once uploaded -->
-- Thingiverse: _link pending_
-- MakerWorld: _link pending_
-- Creality Cloud: _link pending_
+- [Thingiverse](https://www.thingiverse.com/thing:7406982)
+- [Creality Cloud](https://www.crealitycloud.com/model-detail/6aa08dfae6a4b4ead4eae24b?profileId=6aa08dfae6a4b4ead4eae251)
+
+Not published to MakerWorld/Bambu — no Bambu printer currently has a bed
+large enough for the 330mm-wide front/back shells.
