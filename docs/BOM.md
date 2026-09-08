@@ -41,7 +41,7 @@ thicker cables may not clear.
 
 | Qty | Item | Used for |
 |---|---|---|
-| 4 | M3 x 4mm screws | Assembly (TODO: confirm exactly which joints these secure) |
+| 4 | M3 x 4mm screws | Secure the LCD mount clips holding the LCD panel in place |
 
 ## Optional
 

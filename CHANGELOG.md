@@ -17,3 +17,5 @@
   ESFloppy needs no separate hardware; documented the case's existing
   ESFloppy button cutouts and rear screen window, and noted a possible
   future front-mount revision
+- Confirmed the 4 M3x4mm screws secure the LCD mount clips; front/back
+  shell join is therefore snap-fit

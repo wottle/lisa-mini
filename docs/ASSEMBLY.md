@@ -21,7 +21,7 @@
 
 2. **Mount the LCD**
    - Seat the LCD panel into the front bezel
-   - Secure with the LCD mount clips
+   - Secure with the 4 LCD mount clips, each fastened with an M3x4mm screw
    - TODO: describe cable routing to the driver board
 
 3. **Attach the logo plate**
@@ -43,8 +43,10 @@
    - TODO: wiring diagram or photo
 
 7. **Join front and back shells**
-   - TODO: confirm snap-fit vs. screw assembly and screw locations from
-     the current design
+   - The BOM's 4 M3x4mm screws are all accounted for by the LCD mount
+     clips in step 2, so this joint is snap-fit
+   - TODO: confirm snap-fit engagement points / any assembly order that
+     matters
 
 8. **Final check**
    - Power on and verify display output before fully closing up the case
