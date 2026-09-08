@@ -24,3 +24,7 @@
   holder is intentionally left blank to avoid distributing Apple's logo
 - Added `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — the blank insert
   for the bezel's second badge holder
+- Corrected supports guidance: the front shell also needs supports (under
+  the logo plate badge holder, printed with a PETG support interface
+  layer), not just the back; noted LCD clips + power switch print on the
+  same plate as the front shell

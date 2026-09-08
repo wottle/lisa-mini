@@ -16,8 +16,8 @@ lines, a screen that leans back while the case stays vertical, and integrated
 L-shaped feet with no visible seams between leg and case.
 
 Designed for FDM printing, optimized to minimize supports where possible —
-though the back shell currently does need supports (see
-[Printing](#printing) below).
+though both the front and back shells currently do need some supports
+(see [Printing](#printing) below).
 
 There's no built-in FloppyEmu, because the LisaFPGA has a floppy emulator
 built in (ESFloppy) — no separate hardware needed. The case already has
@@ -108,8 +108,8 @@ See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
 - Wall thickness: ~2.4mm
 - Infill: 15–20%
 - Bed size: 350mm — the model is 330mm wide (front face down, back face up)
-- Front shell needs no supports; back shell currently needs supports for
-  the skirt between the legs
+- Both front and back shells currently need supports — back for the skirt
+  between the legs, front for the logo plate badge holder area
 - Snap-fit / screw assembly, no glue required
 
 ## License

@@ -7,7 +7,7 @@
 | Wall thickness | ~2.4mm (2 perimeters at 0.4mm nozzle, or adjust to match) |
 | Infill | 15–20% |
 | Layer height | 0.2mm for all parts, except `Lisa_Mini_Lisa_Logo_Plate.obj` — 0.12mm with ironing enabled, for surface quality (TODO: confirm whether `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` gets the same treatment) |
-| Supports | Front: none needed. Back: needed (see below) |
+| Supports | Front and back both need supports (see below) |
 | Bed size required | 350mm — the model is 330mm wide |
 
 ## Orientation
@@ -30,11 +30,22 @@ currently no version of this design pre-split for smaller beds.
 
 ## Supports
 
-The design was optimized to minimize supports overall, but the back shell
-(`Lisa_Mini_Back_LisaFPGA.obj`) currently needs supports — the skirt
-between the legs is the cause. It's possible to remove that skirt to
-eliminate most/all of the back's support requirement, but that variant
-hasn't been made yet.
+The design was optimized to minimize supports overall, but both shells
+currently need them:
+
+- **Back** (`Lisa_Mini_Back_LisaFPGA.obj`) — the skirt between the legs is
+  the cause. It's possible to remove that skirt to eliminate most/all of
+  the back's support requirement, but that variant hasn't been made yet.
+- **Front** (`Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj`) —
+  needed under the logo plate badge holder area. A PETG support interface
+  layer was used there to improve surface quality, though it matters less
+  than usual since a logo plate gets inserted into that area anyway,
+  covering it.
+
+Print the LCD mount clips (`Lisa_Mini_LCD_Mount_Clips.obj`) and the power
+switch (`Lisa_Mini_Power_Switch.obj`) on the same plate as the front
+shell — the screen cutout leaves plenty of bed space for these small
+parts.
 
 ## Material
 
