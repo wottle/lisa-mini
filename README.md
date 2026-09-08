@@ -5,7 +5,6 @@ around a [LisaFPGA](https://www.tindie.com/products/lisafpga/) board and an
 11.6" 1080p widescreen LCD panel.
 
 ![Lisa Mini](images/hero.jpg)
-<!-- TODO: replace with a real photo once uploaded to images/ -->
 
 ## About
 
