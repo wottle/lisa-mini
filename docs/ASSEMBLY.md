@@ -1,8 +1,5 @@
 # Assembly Instructions
 
-<!-- TODO: a few fit/tolerance details below are still unconfirmed --
-     see the inline TODOs. -->
-
 ## Before you start
 
 - Confirm you have all parts from [`BOM.md`](BOM.md)
@@ -109,10 +106,10 @@
 
 8. **Join front and back shells**
    - The BOM's 8 M3x4mm screws are all accounted for elsewhere (4 for the
-     LCD mount clips in step 1, 4 for the LisaFPGA standoffs in step 6),
-     so this joint is snap-fit
-   - TODO: confirm snap-fit engagement points / any assembly order that
-     matters
+     LCD mount clips in step 1, 4 for the LisaFPGA standoffs in step 6) —
+     the shells themselves simply press together
+   - Small bumps on the back shell align with matching indentations on
+     the front shell to help hold the press fit in place
 
 9. **Final check**
    - Power on and verify display output before fully closing up the case

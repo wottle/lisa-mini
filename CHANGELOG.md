@@ -56,3 +56,6 @@
   closing up the case, since the low-profile USB-C cable carries power
   only, not data -- documented the reflash procedure (remove 4 screws,
   swap in a full USB-C power+data cable) for later updates
+- Confirmed the front/back shell join is a plain press fit, with
+  alignment bumps on the back shell and matching indentations on the
+  front — closes out the last open TODO in ASSEMBLY.md
