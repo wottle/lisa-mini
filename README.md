@@ -4,7 +4,12 @@ A 3D-printable, Apple Lisa–inspired enclosure for building a mini all-in-one
 around a [LisaFPGA](https://www.tindie.com/products/lisafpga/) board and an
 11.6" 1080p widescreen LCD panel.
 
-![Lisa Mini](images/hero.jpg)
+![Lisa Mini running Lisa Office System](images/front_lisa_office_system.jpeg)
+
+| | |
+|---|---|
+| ![Side profile](images/side_profile.jpg) | ![Back, with labeled controls](images/back.jpg) |
+| ![Rear I/O](images/rear_ports.jpg) | ![Angled front view](images/hero.jpg) |
 
 ## About
 

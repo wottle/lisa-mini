@@ -65,3 +65,6 @@
   logo plate; simplified the small-parts orientation list (obvious from
   shape); noted no warping issues on the large shells with the Retro
   Platinum PLA
+- Added 4 new photos to the README: Lisa Office System running on the
+  assembled unit (new hero image), side profile, labeled back, and rear
+  I/O closeup
