@@ -110,6 +110,10 @@ barrel jack input split across two buck converters into separate 5V lines
 for the LisaFPGA and the LCD controller. If you try 5V USB-C directly into
 the controller board, treat it as unverified and have a fallback plan.
 
+The `Lisa_Mini_Power_Switch.obj` cap only switches the LisaFPGA — there's
+no separate power switch for the LCD. The plan is to just pull the 12V
+input when not in use, which cuts power to both.
+
 ## Printing
 
 See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
