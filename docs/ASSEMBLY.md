@@ -69,6 +69,11 @@
    ![Power switch cap orientation before installing the LisaFPGA board](../images/3_power_switch_orientation.jpeg)
 
 6. **Install the LisaFPGA board**
+   - Before mounting the board, plug the low-profile right-angle USB-C
+     cable and the U-shaped HDMI adapter into the LisaFPGA's own ports.
+     Do this first — the case's tight clearance around the board makes
+     both connectors difficult or impossible to attach once it's screwed
+     down
    - Mount the LisaFPGA board into the rear shell
      (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with 4
      M3x4mm screws — this also covers up the barrel jack wiring
@@ -85,7 +90,8 @@
 7. **Wire it up**
    - Connect the second buck converter's 5V output to the LCD controller
      board via a USB-C connector rather than a permanent connection
-   - Connect HDMI between the LisaFPGA and the LCD controller board
+   - Connect the LisaFPGA's U-shaped HDMI adapter (installed in step 6) to
+     the LCD controller board with the thin HDMI cable
 
    These connections use USB-C connectors rather than soldered/permanent
    wiring, deliberately — it lets the front-mounted parts (LCD + controller

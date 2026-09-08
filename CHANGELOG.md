@@ -49,3 +49,6 @@
 - Added the 4 M3x4mm screws that secure the LisaFPGA board to the back
   shell's standoffs (8 total in the BOM now, with the LCD mount clip
   screws)
+- Noted the low-profile USB-C cable and U-shaped HDMI adapter must be
+  plugged into the LisaFPGA board before it's screwed down -- the case's
+  tight clearance makes them hard to attach afterward
