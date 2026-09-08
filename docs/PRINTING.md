@@ -6,7 +6,7 @@
 |---|---|
 | Wall thickness | ~2.4mm (2 perimeters at 0.4mm nozzle, or adjust to match) |
 | Infill | 15–20% |
-| Layer height | 0.2mm for all parts, except `Lisa_Mini_Lisa_Logo_Plate.obj` — 0.12mm with ironing enabled, for surface quality (TODO: confirm whether `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` gets the same treatment) |
+| Layer height | 0.2mm for all parts, except the two logo plates (`Lisa_Mini_Lisa_Logo_Plate.obj`, `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj`) — 0.12mm with ironing enabled, for surface quality |
 | Supports | Front and back both need supports (see below) |
 | Bed size required | 350mm — the model is 330mm wide |
 
@@ -15,10 +15,9 @@
 - `Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj` — print face
   down
 - `Lisa_Mini_Back_LisaFPGA.obj` — print face up
-- `Lisa_Mini_LCD_Mount_Clips.obj` — TODO
-- `Lisa_Mini_Lisa_Logo_Plate.obj` — TODO
-- `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — TODO
-- `Lisa_Mini_Power_Switch.obj` — TODO
+- `Lisa_Mini_LCD_Mount_Clips.obj`, `Lisa_Mini_Lisa_Logo_Plate.obj`,
+  `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj`, `Lisa_Mini_Power_Switch.obj`
+  — small parts, orientation is straightforward from their shape
 - `Lisa_Mini_ESFloppy_Shroud.obj` — no supports needed; recommended in
   black filament since it's visible on the back of the case
 
@@ -62,10 +61,4 @@ parts.
 
 Printed in [Polar Filament Retro Platinum PLA](https://polarfilament.com/products/retro-platinum-pla-1kg-1-75mm)
 — a metallic silver/platinum finish designed for a classic-computing look.
-
-<!-- TODO: note any warping considerations for the larger front/back shells -->
-
-## Known print issues
-
-<!-- TODO: note any issues found while dialing in prints (warping,
-     stringing on vents, tolerance on LCD clips, etc.) -->
+No warping issues on the large front/back shells with this filament.

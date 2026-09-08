@@ -61,3 +61,7 @@
   front — closes out the last open TODO in ASSEMBLY.md
 - Noted the power switch only switches the LisaFPGA, not the LCD — the
   plan is to pull the 12V input to power down both
+- Confirmed the blank logo plate is also ironed at 0.12mm like the Lisa
+  logo plate; simplified the small-parts orientation list (obvious from
+  shape); noted no warping issues on the large shells with the Retro
+  Platinum PLA
