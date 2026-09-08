@@ -24,7 +24,10 @@ built in (ESFloppy) — no separate hardware needed. The case already has
 cutouts for the ESFloppy control buttons and a window to see the screen
 from the back, dressed up with a shroud
 (`Lisa_Mini_ESFloppy_Shroud.obj`) since that opening currently sits well
-below the back surface. Once ESFloppy support is finished, front-mounting
+below the back surface. The shroud's fit isn't perfect yet — it exposes a
+bit too much of the area below the ESFloppy LCD, and needs some glue to
+stay in place — so it may get replaced with an improved version later. Once
+ESFloppy support is finished, front-mounting
 that screen and those buttons (via cable) is a possibility for a future
 revision — though the widescreen LCD covers much of that area, so it may
 not be feasible.

@@ -42,3 +42,7 @@
 - Filled in LCD mount clip orientation (LCD pushed all the way left,
   clips over the 4 mounting holes) and logo plate fit (press-fit, no
   glue — scale to 99% if too tight) in ASSEMBLY.md
+- Documented ESFloppy shroud orientation (angles toward the top edge) and
+  that it needs glue to hold (hot glue for removable, superglue for
+  permanent) since the fit isn't perfect yet and an improved version may
+  follow

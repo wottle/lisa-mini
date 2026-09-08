@@ -47,9 +47,17 @@
    ![Back shell with barrel jack and buck converters wired](../images/2_back_power_and_buck_converters.jpeg)
 
 4. **Install the ESFloppy shroud**
-   - Press-fit `Lisa_Mini_ESFloppy_Shroud.obj` into the rear ESFloppy
-     screen opening — it dresses up that opening, which currently sits
-     well below the back surface
+   - Fit `Lisa_Mini_ESFloppy_Shroud.obj` into the rear ESFloppy screen
+     opening — it dresses up that opening, which currently sits well below
+     the back surface
+   - Double-check orientation before gluing: the shroud should angle
+     toward the top edge of the case
+   - The press-fit alone may not hold it — a bit of glue is recommended.
+     Use hot glue if you want to be able to remove it later, or superglue
+     for a permanent mount. Hot glue is the safer choice for now: the
+     current shroud's fit isn't perfect (it exposes a bit too much of the
+     area below the ESFloppy LCD), so an improved version may replace it
+     without needing to reprint the back shell
 
 5. **Install the power switch cap**
    - Before installing the LisaFPGA board, snap `Lisa_Mini_Power_Switch.obj`

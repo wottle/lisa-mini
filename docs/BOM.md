@@ -16,7 +16,7 @@
 | 1 | `Lisa_Mini_Lisa_Logo_Plate.obj` — Lisa logo badge |
 | 1 | `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — plain insert for the bezel's second badge holder; no Apple logo plate is included (see [README](../README.md) for why) |
 | 1 | `Lisa_Mini_Power_Switch.obj` — sits over the LisaFPGA board's own switch, no separate switch hardware needed |
-| 1 | `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy screen opening, which currently sits well below the back surface; print in black, no supports needed |
+| 1 | `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy screen opening, which currently sits well below the back surface; print in black, no supports needed. Fit isn't perfect yet and needs a bit of glue to hold — see [ASSEMBLY.md](ASSEMBLY.md) |
 
 ## Electronics
 
