@@ -70,10 +70,10 @@
 
 6. **Install the LisaFPGA board**
    - Mount the LisaFPGA board into the rear shell
-     (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with
-     screws — this also covers up the barrel jack wiring underneath, and
-     seats the board's onboard switch under the power switch cap from
-     step 5
+     (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with 4
+     M3x4mm screws — this also covers up the barrel jack wiring
+     underneath, and seats the board's onboard switch under the power
+     switch cap from step 5
    - Connect the buck converters' 5V outputs to the LisaFPGA board's power
      input and, optionally, an inrush capacitor at the LisaFPGA's power
      connector
@@ -96,8 +96,9 @@
    ![HDMI and 5V power connections between the back and front shells](../images/5_connections_between_back_and_front.jpeg)
 
 8. **Join front and back shells**
-   - The BOM's 4 M3x4mm screws are all accounted for by the LCD mount
-     clips in step 1, so this joint is snap-fit
+   - The BOM's 8 M3x4mm screws are all accounted for elsewhere (4 for the
+     LCD mount clips in step 1, 4 for the LisaFPGA standoffs in step 6),
+     so this joint is snap-fit
    - TODO: confirm snap-fit engagement points / any assembly order that
      matters
 

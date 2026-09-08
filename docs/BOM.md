@@ -50,6 +50,7 @@ making it much easier to separate the shells for maintenance.
 | Qty | Item | Used for |
 |---|---|---|
 | 4 | M3 x 4mm screws | Secure the LCD mount clips holding the LCD panel in place |
+| 4 | M3 x 4mm screws | Secure the LisaFPGA board to the back shell's standoffs |
 
 ## Optional
 

@@ -46,3 +46,6 @@
   that it needs glue to hold (hot glue for removable, superglue for
   permanent) since the fit isn't perfect yet and an improved version may
   follow
+- Added the 4 M3x4mm screws that secure the LisaFPGA board to the back
+  shell's standoffs (8 total in the BOM now, with the LCD mount clip
+  screws)
