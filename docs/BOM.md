@@ -1,5 +1,11 @@
 # Bill of Materials
 
+> **Software requirement:** this build uses an 11.6" 1080p widescreen LCD
+> behind a case opening sized for the original 9.7" 4:3 Lisa window. You
+> need [the LisaFPGA fork](../README.md#software) that offsets the
+> displayed image to fit — stock LisaFPGA firmware won't position it
+> correctly.
+
 ## Printed parts
 
 | Qty | File |
@@ -15,7 +21,7 @@
 | Qty | Item | Notes |
 |---|---|---|
 | 1 | [LisaFPGA](https://www.tindie.com/products/lisafpga/) board | FPGA re-implementation of the Apple Lisa |
-| 1 | [9.7" 4:3 LCD panel](https://www.aliexpress.us/item/3256812306199991.html) | iPad-style panel, ~197×148mm visible area |
+| 1 | [11.6" 1080p widescreen LCD panel](https://www.aliexpress.us/item/3256812306199991.html) | Requires [the LisaFPGA fork](../README.md#software) to offset the image within the case's screen opening |
 | 1 | [LCD controller board](https://www.aliexpress.us/item/2251832782455852.html) | Drives the LCD panel above |
 | 2 | [Buck converter](https://www.amazon.com/dp/B07VVXF7YX) | Steps 12V input down for the LCD/controller and LisaFPGA |
 | 1 | [Panel-mount barrel jack, 12V input](https://www.amazon.com/dp/B0DLKN8J7M) | Mounts through the rear shell for power input |

@@ -1,8 +1,8 @@
 # Lisa Mini
 
 A 3D-printable, Apple Lisa–inspired enclosure for building a mini all-in-one
-around a [LisaFPGA](https://www.tindie.com/products/lisafpga/) board and a
-9.7" 4:3 LCD panel (iPad-style, ~197×148mm visible area).
+around a [LisaFPGA](https://www.tindie.com/products/lisafpga/) board and an
+11.6" 1080p widescreen LCD panel.
 
 ![Lisa Mini](images/hero.jpg)
 <!-- TODO: replace with a real photo once uploaded to images/ -->
@@ -62,6 +62,17 @@ that isn't reflected in the `.scad` file. Treat the `.scad` file as the
 best starting point for overall shell/vent/leg proportions, not as a 1:1
 source for the exact release files; there's currently no single parametric
 source that captures the final printed geometry end to end.
+
+## Software
+
+The case's screen opening is sized for the original 9.7" 4:3 Lisa-style
+window, but the LCD actually used is an 11.6" 1080p widescreen panel — the
+image doesn't natively fill (or center in) that opening. This build
+requires [a fork of the LisaFPGA software](#) that adds the ability to
+offset the displayed image so it lands correctly within the case's opening.
+Stock LisaFPGA firmware will not position the image correctly for this
+case.
+<!-- TODO: add link to the LisaFPGA fork repo -->
 
 ## Power design notes
 

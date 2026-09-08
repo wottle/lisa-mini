@@ -8,3 +8,6 @@
   screws, cabling)
 - Documented bed size requirement (350mm), print orientation, and back
   shell's support requirement
+- Corrected LCD spec: 11.6" 1080p widescreen, not 9.7" 4:3 iPad panel; noted
+  the required LisaFPGA fork for offsetting the image to fit the case's
+  screen opening
