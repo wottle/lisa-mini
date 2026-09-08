@@ -19,3 +19,6 @@
   future front-mount revision
 - Confirmed the 4 M3x4mm screws secure the LCD mount clips; front/back
   shell join is therefore snap-fit
+- Documented layer height (0.2mm, 0.12mm + ironing for the logo plate)
+- Clarified only the Lisa logo plate is included; the bezel's second badge
+  holder is intentionally left blank to avoid distributing Apple's logo

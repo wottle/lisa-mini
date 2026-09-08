@@ -13,7 +13,7 @@
 | 1 | `Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj` |
 | 1 | `Lisa_Mini_Back_LisaFPGA.obj` |
 | 4 | `Lisa_Mini_LCD_Mount_Clips.obj` |
-| 1 | `Lisa_Mini_Lisa_Logo_Plate.obj` |
+| 1 | `Lisa_Mini_Lisa_Logo_Plate.obj` — the front bezel has holders for two badge plates; only the Lisa logo plate is included here (see [README](../README.md) for why) |
 | 1 | `Lisa_Mini_Power_Switch.obj` — sits over the LisaFPGA board's own switch, no separate switch hardware needed |
 
 ## Electronics

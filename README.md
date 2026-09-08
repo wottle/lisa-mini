@@ -47,12 +47,18 @@ docs/
 | `Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj` | Front bezel / LCD mount |
 | `Lisa_Mini_Back_LisaFPGA.obj` | Rear shell, sized for the LisaFPGA board |
 | `Lisa_Mini_LCD_Mount_Clips.obj` | LCD retaining clips |
-| `Lisa_Mini_Lisa_Logo_Plate.obj` | Lisa logo badge insert |
+| `Lisa_Mini_Lisa_Logo_Plate.obj` | Lisa logo badge insert (see note below) |
 | `Lisa_Mini_Power_Switch.obj` | Cap that sits over the LisaFPGA board's own switch — no separate switch hardware |
 
 See [`docs/BOM.md`](docs/BOM.md) for the LCD panel, LisaFPGA board, and
 hardware you'll need, and [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md) for the
 build sequence.
+
+**Logo plate note:** the front bezel has holders for two badge plates. This
+repo only includes the Lisa logo plate (`Lisa_Mini_Lisa_Logo_Plate.obj`).
+The second holder is left blank — deliberately not shipping an Apple logo
+plate here to avoid distributing Apple's trademarked logo. If you want an
+Apple logo in that spot, you'll need to source or model your own.
 
 ## Editing the design
 

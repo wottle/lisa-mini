@@ -6,7 +6,7 @@
 |---|---|
 | Wall thickness | ~2.4mm (2 perimeters at 0.4mm nozzle, or adjust to match) |
 | Infill | 15–20% |
-| Layer height | TODO (0.2mm is a safe default) |
+| Layer height | 0.2mm for all parts, except `Lisa_Mini_Lisa_Logo_Plate.obj` — 0.12mm with ironing enabled, for surface quality |
 | Supports | Front: none needed. Back: needed (see below) |
 | Bed size required | 350mm — the model is 330mm wide |
 

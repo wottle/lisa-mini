@@ -25,8 +25,11 @@
    - TODO: describe cable routing to the driver board
 
 3. **Attach the logo plate**
-   - Press-fit or glue `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's logo
-     plate holder
+   - Press-fit or glue `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa
+     logo plate holder
+   - The bezel's second badge holder (for an Apple logo) is left blank in
+     this repo — see the README for why — fill it with your own part if
+     you want one there
    - TODO: confirm fit tolerance (press-fit vs. adhesive)
 
 4. **Mount the power switch**
