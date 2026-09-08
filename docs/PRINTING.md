@@ -6,7 +6,7 @@
 |---|---|
 | Wall thickness | ~2.4mm (2 perimeters at 0.4mm nozzle, or adjust to match) |
 | Infill | 15–20% |
-| Layer height | 0.2mm for all parts, except `Lisa_Mini_Lisa_Logo_Plate.obj` — 0.12mm with ironing enabled, for surface quality |
+| Layer height | 0.2mm for all parts, except `Lisa_Mini_Lisa_Logo_Plate.obj` — 0.12mm with ironing enabled, for surface quality (TODO: confirm whether `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` gets the same treatment) |
 | Supports | Front: none needed. Back: needed (see below) |
 | Bed size required | 350mm — the model is 330mm wide |
 
@@ -17,6 +17,7 @@
 - `Lisa_Mini_Back_LisaFPGA.obj` — print face up
 - `Lisa_Mini_LCD_Mount_Clips.obj` — TODO
 - `Lisa_Mini_Lisa_Logo_Plate.obj` — TODO
+- `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — TODO
 - `Lisa_Mini_Power_Switch.obj` — TODO
 
 ## Bed size / smaller printers

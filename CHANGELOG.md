@@ -22,3 +22,5 @@
 - Documented layer height (0.2mm, 0.12mm + ironing for the logo plate)
 - Clarified only the Lisa logo plate is included; the bezel's second badge
   holder is intentionally left blank to avoid distributing Apple's logo
+- Added `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — the blank insert
+  for the bezel's second badge holder

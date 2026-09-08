@@ -24,12 +24,13 @@
    - Secure with the 4 LCD mount clips, each fastened with an M3x4mm screw
    - TODO: describe cable routing to the driver board
 
-3. **Attach the logo plate**
+3. **Attach the logo plates**
    - Press-fit or glue `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa
      logo plate holder
-   - The bezel's second badge holder (for an Apple logo) is left blank in
-     this repo — see the README for why — fill it with your own part if
-     you want one there
+   - Press-fit or glue `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` into
+     the bezel's second holder — this repo ships it blank rather than an
+     Apple logo (see the README for why); swap in your own part there if
+     you want a logo
    - TODO: confirm fit tolerance (press-fit vs. adhesive)
 
 4. **Mount the power switch**
