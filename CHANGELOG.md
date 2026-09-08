@@ -28,3 +28,9 @@
   the logo plate badge holder, printed with a PETG support interface
   layer), not just the back; noted LCD clips + power switch print on the
   same plate as the front shell
+- Added print orientation screenshots to PRINTING.md
+- Rewrote ASSEMBLY.md into front/back/connect-and-close sections, removed
+  the power switch as a standalone step (it snaps on as the shells
+  close), and documented the barrel jack wiring, LCD controller mounting,
+  and the quick-disconnect USB-C connectors between front- and
+  back-mounted components

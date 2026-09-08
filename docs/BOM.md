@@ -38,6 +38,12 @@ fit inside the case, so the right-angle USB-C, U-shaped HDMI, and low-profile
 HDMI cable aren't just convenience picks — standard straight connectors or
 thicker cables may not clear.
 
+Both 5V power runs (buck converter → LisaFPGA, buck converter → LCD
+controller) use USB-C connectors rather than permanent wiring. This is
+deliberate: it lets the front-mounted parts (LCD + controller board) and
+back-mounted parts (LisaFPGA + power) quick-disconnect from each other,
+making it much easier to separate the shells for maintenance.
+
 ## Hardware
 
 | Qty | Item | Used for |
