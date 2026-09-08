@@ -20,6 +20,15 @@
 - `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — TODO
 - `Lisa_Mini_Power_Switch.obj` — TODO
 
+Slicer plating for both shells:
+
+![Back piece print orientation](../images/printing_back_piece.png)
+
+![Front piece and small parts print orientation](../images/printing_front_piece.png)
+
+The front shell plates together with the LCD mount clips and power switch,
+using the open bed space inside the screen cutout.
+
 ## Bed size / smaller printers
 
 The model is 330mm wide, so front/back shells need a 350mm print bed to
