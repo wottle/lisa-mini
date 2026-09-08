@@ -11,3 +11,5 @@
 - Corrected LCD spec: 11.6" 1080p widescreen, not 9.7" 4:3 iPad panel; noted
   the required LisaFPGA fork for offsetting the image to fit the case's
   screen opening
+- Removed separate power switch hardware from BOM — the printed part sits
+  over the LisaFPGA board's own switch; confirmed LCD mount clip qty is 4

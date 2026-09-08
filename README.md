@@ -40,7 +40,7 @@ docs/
 | `Lisa_Mini_Back_LisaFPGA.obj` | Rear shell, sized for the LisaFPGA board |
 | `Lisa_Mini_LCD_Mount_Clips.obj` | LCD retaining clips |
 | `Lisa_Mini_Lisa_Logo_Plate.obj` | Lisa logo badge insert |
-| `Lisa_Mini_Power_Switch.obj` | Power switch bezel/housing |
+| `Lisa_Mini_Power_Switch.obj` | Cap that sits over the LisaFPGA board's own switch — no separate switch hardware |
 
 See [`docs/BOM.md`](docs/BOM.md) for the LCD panel, LisaFPGA board, and
 hardware you'll need, and [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md) for the

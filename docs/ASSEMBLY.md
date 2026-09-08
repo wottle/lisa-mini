@@ -30,8 +30,9 @@
    - TODO: confirm fit tolerance (press-fit vs. adhesive)
 
 4. **Mount the power switch**
-   - Install `Lisa_Mini_Power_Switch.obj` and the physical switch hardware
-   - TODO: describe wiring
+   - Install `Lisa_Mini_Power_Switch.obj` over the LisaFPGA board's own
+     onboard switch — no separate switch hardware needed
+   - TODO: confirm alignment/fit details
 
 5. **Install the LisaFPGA board**
    - Mount the LisaFPGA board into the rear shell (`Lisa_Mini_Back_LisaFPGA.obj`)
