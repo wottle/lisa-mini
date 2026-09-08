@@ -119,7 +119,8 @@ See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
 - Bed size: 350mm — the model is 330mm wide (front face down, back face up)
 - Both front and back shells currently need supports — back for the skirt
   between the legs, front for the logo plate badge holder area
-- Snap-fit / screw assembly, no glue required
+- Front/back shells press-fit together (alignment bumps, no screws);
+  everything else uses M3x4mm screws
 
 ## License
 
