@@ -39,3 +39,6 @@
 - Added `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy
   screen opening; print in black, no supports needed
 - Documented filament used: Polar Filament Retro Platinum PLA
+- Filled in LCD mount clip orientation (LCD pushed all the way left,
+  clips over the 4 mounting holes) and logo plate fit (press-fit, no
+  glue — scale to 99% if too tight) in ASSEMBLY.md

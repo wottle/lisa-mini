@@ -15,32 +15,30 @@
 
 ### Front assembly
 
-1. **Prep the front shell**
-   - Insert `Lisa_Mini_LCD_Mount_Clips.obj` into the front bezel's LCD
-     mounting points
-   - TODO: describe clip orientation / fit
-
-2. **Mount the LCD**
-   - Seat the LCD panel into the front bezel
-   - Secure with the 4 LCD mount clips, each fastened with an M3x4mm screw
+1. **Mount the LCD**
+   - Seat the LCD panel into the front bezel, pushed all the way to the
+     left side
+   - Set a `Lisa_Mini_LCD_Mount_Clips.obj` clip above each of the 4
+     mounting holes and screw it down with an M3x4mm screw to hold the
+     LCD in place
    - Stick the LCD controller board to the back of the LCD panel with
      double-sided tape, and connect the LCD's ribbon cable and small
      2-pin power connector to it
 
    ![LCD and controller board mounted in the front shell](../images/1_lcd_mounting.jpg)
 
-3. **Attach the logo plates**
-   - Press-fit or glue `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa
-     logo plate holder
-   - Press-fit or glue `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` into
-     the bezel's second holder — this repo ships it blank rather than an
-     Apple logo (see the README for why); swap in your own part there if
-     you want a logo
-   - TODO: confirm fit tolerance (press-fit vs. adhesive)
+2. **Attach the logo plates**
+   - Press-fit `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa logo
+     plate holder — no glue needed. If it's too tight to press-fit, scale
+     the plate down to 99% and reprint
+   - Press-fit `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` into the
+     bezel's second holder the same way — this repo ships it blank rather
+     than an Apple logo (see the README for why); swap in your own part
+     there if you want a logo
 
 ### Back assembly
 
-4. **Install the power input and buck converters**
+3. **Install the power input and buck converters**
    - Mount the 12V panel-mount barrel jack into the rear shell
    - Mount the two buck converters along the top edge of the rear shell
    - Wire the barrel jack's 12V output, splitting it into two leads — one
@@ -48,12 +46,12 @@
 
    ![Back shell with barrel jack and buck converters wired](../images/2_back_power_and_buck_converters.jpeg)
 
-5. **Install the ESFloppy shroud**
+4. **Install the ESFloppy shroud**
    - Press-fit `Lisa_Mini_ESFloppy_Shroud.obj` into the rear ESFloppy
      screen opening — it dresses up that opening, which currently sits
      well below the back surface
 
-6. **Install the power switch cap**
+5. **Install the power switch cap**
    - Before installing the LisaFPGA board, snap `Lisa_Mini_Power_Switch.obj`
      into its mounting point in the rear shell — the photo below shows its
      orientation. Do this now: once the LisaFPGA board is installed in the
@@ -62,12 +60,12 @@
 
    ![Power switch cap orientation before installing the LisaFPGA board](../images/3_power_switch_orientation.jpeg)
 
-7. **Install the LisaFPGA board**
+6. **Install the LisaFPGA board**
    - Mount the LisaFPGA board into the rear shell
      (`Lisa_Mini_Back_LisaFPGA.obj`) and secure it to the standoffs with
      screws — this also covers up the barrel jack wiring underneath, and
      seats the board's onboard switch under the power switch cap from
-     step 6
+     step 5
    - Connect the buck converters' 5V outputs to the LisaFPGA board's power
      input and, optionally, an inrush capacitor at the LisaFPGA's power
      connector
@@ -76,7 +74,7 @@
 
 ### Connect and close
 
-8. **Wire it up**
+7. **Wire it up**
    - Connect the second buck converter's 5V output to the LCD controller
      board via a USB-C connector rather than a permanent connection
    - Connect HDMI between the LisaFPGA and the LCD controller board
@@ -89,11 +87,11 @@
 
    ![HDMI and 5V power connections between the back and front shells](../images/5_connections_between_back_and_front.jpeg)
 
-9. **Join front and back shells**
+8. **Join front and back shells**
    - The BOM's 4 M3x4mm screws are all accounted for by the LCD mount
-     clips in step 2, so this joint is snap-fit
+     clips in step 1, so this joint is snap-fit
    - TODO: confirm snap-fit engagement points / any assembly order that
      matters
 
-10. **Final check**
+9. **Final check**
    - Power on and verify display output before fully closing up the case
