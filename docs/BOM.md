@@ -18,7 +18,7 @@ then print its parts plus the common parts.
 | 4 | `Lisa_Mini_LCD_Mount_Clips.obj` |
 | 1 | `Lisa_Mini_Lisa_Logo_Plate.obj` — Lisa logo badge |
 | 1 | `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — plain insert for the bezel's second badge holder; no Apple logo plate is included (see [README](../README.md) for why) |
-| 1 | `Lisa_Mini_Power_Switch.obj` |
+| 1 | `Lisa_Mini_Power_Switch.obj` — cap over the LisaFPGA's power switch |
 | 1 | `Lisa_Mini_Back_LisaFPGA_SD_Slot_Covers.stl` |
 
 ### Design A: ESFloppy on back -- `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/`

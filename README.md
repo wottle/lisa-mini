@@ -60,7 +60,7 @@ the `common/` parts.
 | Folder | `Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/` | `Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/` |
 | LisaFPGA modifications | None -- the board is left untouched | Solder wires to the ESFloppy buttons, move the ESFloppy screen, and move the lit power button to the front (remove the board's own power LED, solder wires to the board) |
 | ESFloppy screen and buttons | Rear window and button cutouts, dressed up with a shroud | Front-mounted, with printed button caps and a screen clip |
-| Power button | Cap over the board's own switch | Lit button on the front, plus a master rocker power switch |
+| Power button | Button cutout on rear case | Lit button on the front, plus a master rocker power switch |
 | Difficulty | Easier | Needs soldering to the LisaFPGA, plus extra parts (see BOM) |
 
 ## Parts to print
@@ -72,7 +72,7 @@ the `common/` parts.
 | `Lisa_Mini_LCD_Mount_Clips.obj` | LCD retaining clips |
 | `Lisa_Mini_Lisa_Logo_Plate.obj` | Lisa logo badge insert (see note below) |
 | `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` | Blank badge insert for the bezel's second holder (see note below) |
-| `Lisa_Mini_Power_Switch.obj` | Power switch part |
+| `Lisa_Mini_Power_Switch.obj` | Cap over the LisaFPGA's power switch (the one that turns the whole device on and off) |
 | `Lisa_Mini_Back_LisaFPGA_SD_Slot_Covers.stl` | SD slot covers for the back |
 
 **ESFloppy on back** -- `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/`

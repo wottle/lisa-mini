@@ -13,9 +13,20 @@ Choose **one** before printing (details in the
   board's own power LED and soldering wires to it for the front power
   button. Uses the parts in `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/`.
 
-Both designs also use the parts in `models/print-ready/common/`. Steps
-below apply to both designs unless marked **Design A only** or
-**Design B**.
+Both designs also use the parts in `models/print-ready/common/`.
+
+The numbered steps 1-9 below are for **Design A (ESFloppy on back)**.
+Design B shares steps 1-2 (mounting the LCD and attaching the logo plates)
+and the final check in step 9, and has its own
+[back and front steps](#design-b-extra-steps-esfloppy-and-power-on-the-front).
+
+The LisaFPGA has two different power controls, which this guide keeps
+separate:
+- The **power switch** turns the whole device on and off. Both designs
+  cover it with the printed power switch cap (`Lisa_Mini_Power_Switch.obj`).
+- The **Lisa Power button** emulates the power button on the front of the
+  original Lisa. In Design A it is reached through a button cutout on the
+  rear case; in Design B it moves to a lit button on the front.
 
 ## Before you start
 
@@ -40,7 +51,10 @@ below apply to both designs unless marked **Design A only** or
   holding the LisaFPGA to the back shell, unplug the low-profile USB-C
   power cable, and plug in a full USB-C power+data cable to reflash it.
 
-## Steps
+## Design A steps (ESFloppy on back)
+
+These steps assume Design A. For Design B, do steps 1-2, then follow the
+[Design B section](#design-b-extra-steps-esfloppy-and-power-on-the-front).
 
 ### Front assembly
 
@@ -72,6 +86,12 @@ below apply to both designs unless marked **Design A only** or
    - Mount the two buck converters along the top edge of the rear shell
    - Wire the barrel jack's 12V output, splitting it into two leads — one
      to each buck converter's input
+   - Set each buck converter's output to 5V before connecting anything
+     to it. With the 12V input connected and nothing on the outputs,
+     measure each converter's output with a multimeter and turn its
+     adjustment screw until it reads 5.0V. Check both converters
+     individually, and only then connect them to the LisaFPGA or the LCD
+     controller
 
    ![Back shell with barrel jack and buck converters wired](../images/2_back_power_and_buck_converters.jpeg)
 
@@ -88,7 +108,7 @@ below apply to both designs unless marked **Design A only** or
      area below the ESFloppy LCD), so an improved version may replace it
      without needing to reprint the back shell
 
-5. **Install the power switch cap (Design A; Design B see below)**
+5. **Install the power switch cap**
    - Before installing the LisaFPGA board, snap `Lisa_Mini_Power_Switch.obj`
      into its mounting point in the rear shell — the photo below shows its
      orientation. Do this now: once the LisaFPGA board is installed in the
@@ -225,15 +245,35 @@ covers the work area afterward.
 ### Back assembly
 
 **B6. Prepare the back case**
+   - Snap `Lisa_Mini_Power_Switch.obj` (the power switch cap) into its
+     mounting point in the rear shell, before the LisaFPGA goes in. It's
+     the white cap at the upper left of the photo below. The board covers
+     this area afterward, so the cap can't be added later
    - Connect the 12V barrel jack to the master power rocker switch, and
      from the switch to the buck converters
+   - Set each buck converter's output to 5V before connecting anything
+     to it. With the 12V input connected and nothing on the outputs,
+     measure each converter's output with a multimeter and turn its
+     adjustment screw until it reads 5.0V. Check both converters
+     individually, and only then connect them to the LisaFPGA or the LCD
+     controller
 
    ![Back case with the 12V jack, master switch and buck converters](../images/design_b_assembly/6_1_prepare_back_case_connect_12v_jack_to_switch_then_buck_converters.jpg)
 
 **B7. Install the LisaFPGA**
-   - Install the LisaFPGA with `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj`,
-     making sure the power switch cap aligns with the switch on the board
-   - Pull the wires out the top, avoiding any buttons
+   - Before mounting the board, plug the low-profile right-angle USB-C
+     cable and the U-shaped HDMI adapter into the LisaFPGA's own ports.
+     Do this first: the case's tight clearance around the board makes
+     both connectors difficult or impossible to attach once it's screwed
+     down
+   - Mount the LisaFPGA into the rear shell
+     (`Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj`) and secure it
+     to the standoffs with 4 M3x4mm screws, making sure the power switch
+     cap aligns with the switch on the board
+   - Pull the button and LED wires out the top, avoiding any buttons
+   - Connect the buck converters' 5V outputs to the LisaFPGA board's power
+     input and, optionally, an inrush capacitor at the LisaFPGA's power
+     connector
 
    ![LisaFPGA installed with the power switch aligned](../images/design_b_assembly/7_1_install_lisaFPGA_ensure_power_switch_aligns_to_switch_on_board_pull_wires_out_top_avoiding_any_buttons.jpg)
 
