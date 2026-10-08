@@ -12,13 +12,17 @@
 
 ## Orientation
 
-- `Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj` — print face
+File locations: shared parts are in `models/print-ready/common/`; the rest
+are in the folder for your chosen design (`Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/` or
+`Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/`).
+
+- `Lisa_Mini_Front.obj` (Design A) — print face
   down
 - `Lisa_Mini_Back_LisaFPGA.obj` — print face up
 - `Lisa_Mini_LCD_Mount_Clips.obj`, `Lisa_Mini_Lisa_Logo_Plate.obj`,
   `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj`, `Lisa_Mini_Power_Switch.obj`
   — small parts, orientation is straightforward from their shape
-- `Lisa_Mini_ESFloppy_Shroud.obj` — no supports needed; recommended in
+- `Lisa_Mini_ESFloppy_Shroud.obj` (Design A only) — no supports needed; recommended in
   black filament since it's visible on the back of the case
 
 Slicer plating for both shells:
@@ -46,7 +50,7 @@ currently need them:
 - **Back** (`Lisa_Mini_Back_LisaFPGA.obj`) — the skirt between the legs is
   the cause. It's possible to remove that skirt to eliminate most/all of
   the back's support requirement, but that variant hasn't been made yet.
-- **Front** (`Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj`) —
+- **Front** (`Lisa_Mini_Front.obj`) —
   needed under the logo plate badge holder area. A PETG support interface
   layer was used there to improve surface quality, though it matters less
   than usual since a logo plate gets inserted into that area anyway,

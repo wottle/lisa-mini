@@ -8,15 +8,51 @@
 
 ## Printed parts
 
+Pick **one** design (see the [README](../README.md#choose-your-design)),
+then print its parts plus the common parts.
+
+### Common (either design) -- `models/print-ready/common/`
+
 | Qty | File |
 |---|---|
-| 1 | `Lisa_Mini_Front_11.6_LCD_Mount_With_Logo_Plate_Holders.obj` |
-| 1 | `Lisa_Mini_Back_LisaFPGA.obj` |
 | 4 | `Lisa_Mini_LCD_Mount_Clips.obj` |
 | 1 | `Lisa_Mini_Lisa_Logo_Plate.obj` — Lisa logo badge |
 | 1 | `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj` — plain insert for the bezel's second badge holder; no Apple logo plate is included (see [README](../README.md) for why) |
-| 1 | `Lisa_Mini_Power_Switch.obj` — sits over the LisaFPGA board's own switch, no separate switch hardware needed |
-| 1 | `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy screen opening, which currently sits well below the back surface; print in black, no supports needed. Fit isn't perfect yet and needs a bit of glue to hold — see [ASSEMBLY.md](ASSEMBLY.md) |
+| 1 | `Lisa_Mini_Power_Switch.obj` |
+| 1 | `Lisa_Mini_Back_LisaFPGA_SD_Slot_Covers.stl` |
+
+### Design A: ESFloppy on back -- `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/`
+
+| Qty | File |
+|---|---|
+| 1 | `Lisa_Mini_Front.obj` |
+| 1 | `Lisa_Mini_Back_LisaFPGA.obj` |
+| 1 | `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy screen opening; print in black, no supports needed. Fit isn't perfect and needs a bit of glue to hold — see [ASSEMBLY.md](ASSEMBLY.md) |
+
+### Design B: ESFloppy on front -- `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/`
+
+| Qty | File |
+|---|---|
+| 1 | `Lisa_Mini_Front_With_ESFloppy_Screen.obj` |
+| 1 | `Lisa_Mini_Front_With_ESFloppy_Slot_Filler_Black.obj` — print in black |
+| 1 | `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj` |
+| 1 | `Lisa_Mini_ESFloppy_Screen_Clip.obj` |
+| 1 | `Lisa_Mini_ESFloppy_Button_Cap.obj` |
+| 3 | `Lisa_Mini_ESFloppy_Button_Inner_qty3.obj` — single part, print 3 copies |
+| 3 | `Lisa_Mini_ESFloppy_Button_Outer_qty3.obj` — single part, print 3 copies |
+| 1 | `Lisa_Mini_Power-Button.stl` — front-mounted lit power button |
+
+### Design B extra parts
+
+| Qty | Item | Notes |
+|---|---|---|
+| 3 | [Push buttons](https://a.co/d/0cvuNnPx) | The front ESFloppy buttons |
+| 1 | [Master power rocker switch](https://a.co/d/08oj8ZMu) | Added by this design; same switch used in the author's Raspberry Pi build |
+| 1 | Header pins and Dupont wires | Extend the ESFloppy buttons and the ESFloppy LCD to the front |
+| 1 | Hookup wire | More wire for the new buttons and the power button |
+| 1 | LED | For the lit power button; amber or yellow suits the board's 3.3V rail (see [ASSEMBLY.md](ASSEMBLY.md#design-b-extra-steps-esfloppy-and-power-on-the-front)) |
+| 1 | Soldering iron | Required for the board modifications |
+| 1 | Optional: [replacement ESFloppy LCD](https://www.aliexpress.us/item/3256809306858810.html) | If you damage the original while removing it. Get the **4-pin** version. The author used the white-text version; a blue-text version is also available |
 
 ## Electronics
 

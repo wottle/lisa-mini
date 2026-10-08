@@ -71,3 +71,17 @@
 - Published to Thingiverse and Creality Cloud; linked both from the
   README. Skipping MakerWorld/Bambu for now -- no Bambu printer has a bed
   large enough for the 330mm-wide shells
+- Updated ASSEMBLY.md for the USB-capable fork: flashing steps (data cable,
+  power switch on, approve the USB hub prompt), settings reset note, and a
+  USB keyboard/mouse check in the final step
+- Split the models into two designs plus shared parts: `common/`,
+  `Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/` (LisaFPGA untouched), and
+  `Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/` (ESFloppy screen, buttons, and lit
+  power button moved to the front; requires soldering to the LisaFPGA)
+- Added `Lisa_Mini_Back_LisaFPGA_SD_Slot_Covers.stl` and an updated
+  `Lisa_Mini_Front.obj`, which replaces the old unbadged front; badged
+  versions only going forward
+- README, BOM, ASSEMBLY and PRINTING now explain how to pick a design
+- Documented Design B extra parts: 3 push buttons, master rocker switch,
+  header pins/Dupont wires, optional replacement 4-pin ESFloppy LCD
+- Added a photographed step-by-step build for Design B (ESFloppy and power on the front), resized to web JPEGs under `images/design_b_assembly/`
