@@ -56,6 +56,12 @@ separate:
      double-sided tape, and connect the LCD's ribbon cable and small
      2-pin power connector to it
 
+   ![LCD and controller board mounted in the front shell](../../images/1_lcd_mounting.jpg)
+
+   Note: the front piece in this photo is the Design A front, so it's
+   missing the ESFloppy button assembly and the ESFloppy LCD cut-out that
+   the Design B front has. The LCD mounts the same way.
+
 2. **Attach the logo plates**
    - Press-fit `Lisa_Mini_Lisa_Logo_Plate.obj` into the bezel's Lisa logo
      plate holder — no glue needed. If it's too tight to press-fit, scale
