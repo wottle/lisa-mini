@@ -94,13 +94,12 @@ separate:
    - Solder a wire to two legs of each of the ESFloppy LEFT, SEL and RIGHT
      buttons and of the LISA POWER button (6 wires for the ESFloppy
      buttons, plus 2 for the power button)
-   - Before removing the board's own power LED (LED5), note which of its
-     pads is positive (+). Check the LED's orientation and the polarity
-     marking on the board, or confirm with a multimeter's diode test.
+   - LED5's positive (+) pad is the left one when the board is oriented
+     with its silkscreen text the right way up, as in the photos below.
      LEDs only light one way round
    - Remove LED5 and solder two wires to its pads, giving 4 wires for the
      lit power button in total. Label or color-code the wire on the
-     positive (+) pad so you can tell it from the negative one later
+     left (+) pad so you can tell it from the right (-) one later
 
    ![Wires soldered to the ESFloppy buttons, power button and power LED pads](../../images/design_b_assembly/2_1_solder_wires_to_ESFloppy_buttons_and_power_button_and_power_led.jpg)
 
@@ -189,7 +188,7 @@ separate:
 10. **Connect the lit power button**
    - Connect the 4 wires from the lit power button to the 4 wires coming
      from the LisaFPGA board. Connect the LED's positive (+) wire to the
-     wire from the LisaFPGA's positive (+) LED5 pad, and the negative to
+     wire from LED5's left (+) pad, and the negative to
      the negative. The two switch wires can go either way round
 
    ![Connecting the lit power button's wires to the LisaFPGA board's wires](../../images/design_b_assembly/8_1_connect_4_wires_from_lighted_power_switch_to_wires_on_LisaFPGA_board.jpg)
