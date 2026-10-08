@@ -45,8 +45,8 @@ models/
   source/        Parametric OpenSCAD source + design notes
 images/           Build photos and renders
 docs/
-  ASSEMBLY.md     Step-by-step build instructions
-  BOM.md          Parts and hardware you'll need
+  design_a/       ASSEMBLY.md and BOM.md for the ESFloppy-on-back design
+  design_b/       ASSEMBLY.md and BOM.md for the ESFloppy-on-front design
   PRINTING.md     Slicer settings and printing notes
 ```
 
@@ -96,9 +96,9 @@ the `common/` parts.
 | `Lisa_Mini_ESFloppy_Button_Outer_qty3.obj` | Button outer part (single part; print 3 copies) |
 | `Lisa_Mini_Power-Button.stl` | Front-mounted lit power button |
 
-See [`docs/BOM.md`](docs/BOM.md) for the LCD panel, LisaFPGA board, and
-hardware you'll need, and [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md) for the
-build sequence.
+Each design has its own parts list and build guide: Design A
+([BOM](docs/design_a/BOM.md), [assembly](docs/design_a/ASSEMBLY.md)) and
+Design B ([BOM](docs/design_b/BOM.md), [assembly](docs/design_b/ASSEMBLY.md)).
 
 **Logo plate note:** the front bezel has holders for two badge plates. This
 repo includes the Lisa logo plate (`Lisa_Mini_Lisa_Logo_Plate.obj`) for one
@@ -135,8 +135,10 @@ the LisaFPGA software that adds the ability to offset the displayed image
 so it lands correctly within the case's opening. Stock LisaFPGA firmware
 will not position the image correctly for this case.
 
-**Flash it before assembling the case** — see
-[`docs/ASSEMBLY.md`](docs/ASSEMBLY.md#before-you-start) for why.
+**Flash it before assembling the case** — see "Before you start" in the
+assembly guide for your design
+([A](docs/design_a/ASSEMBLY.md#before-you-start),
+[B](docs/design_b/ASSEMBLY.md#before-you-start)) for why.
 
 ## Power design notes
 
