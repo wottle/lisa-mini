@@ -94,8 +94,13 @@ separate:
    - Solder a wire to two legs of each of the ESFloppy LEFT, SEL and RIGHT
      buttons and of the LISA POWER button (6 wires for the ESFloppy
      buttons, plus 2 for the power button)
-   - Remove the board's own power LED (LED5) and solder two wires to its
-     pads, giving 4 wires for the lit power button in total
+   - Before removing the board's own power LED (LED5), note which of its
+     pads is positive (+). Check the LED's orientation and the polarity
+     marking on the board, or confirm with a multimeter's diode test.
+     LEDs only light one way round
+   - Remove LED5 and solder two wires to its pads, giving 4 wires for the
+     lit power button in total. Label or color-code the wire on the
+     positive (+) pad so you can tell it from the negative one later
 
    ![Wires soldered to the ESFloppy buttons, power button and power LED pads](../../images/design_b_assembly/2_1_solder_wires_to_ESFloppy_buttons_and_power_button_and_power_led.jpg)
 
@@ -127,6 +132,11 @@ separate:
 6. **Wire the lit power button**
    - Wire the 4 wires to the lit power button's switch and LED
      (`Lisa_Mini_Power-Button.stl`). Glue the LED in place first
+   - Note the LED's positive (+) leg: the longer leg is usually positive,
+     and the flat edge on the LED's rim marks the negative side. Label or
+     color-code the wire you solder to the positive leg. It must be
+     connected to the positive wire from the LisaFPGA board's LED5 pad
+     (step 10), or the LED won't light
    - Fish the 4 wires through the power switch opening
 
    ![Wiring the switch and LED](../../images/design_b_assembly/4_1_wire_keyboard_switch_and_led_glue_LED_in_place_first.jpg)
@@ -178,7 +188,9 @@ separate:
 
 10. **Connect the lit power button**
    - Connect the 4 wires from the lit power button to the 4 wires coming
-     from the LisaFPGA board
+     from the LisaFPGA board. Connect the LED's positive (+) wire to the
+     wire from the LisaFPGA's positive (+) LED5 pad, and the negative to
+     the negative. The two switch wires can go either way round
 
    ![Connecting the lit power button's wires to the LisaFPGA board's wires](../../images/design_b_assembly/8_1_connect_4_wires_from_lighted_power_switch_to_wires_on_LisaFPGA_board.jpg)
 
