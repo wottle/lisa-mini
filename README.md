@@ -50,6 +50,12 @@ docs/
   PRINTING.md     Slicer settings and printing notes
 ```
 
+## Assembly video
+
+Watch the [assembly video on YouTube](https://youtu.be/3yojjUhr7K4). It builds Design B, which
+includes every step of Design A plus the ESFloppy and power button
+modifications, so it works as a guide for either design.
+
 ## Choose your design
 
 There are two versions of the case. **Pick one** and print its folder plus

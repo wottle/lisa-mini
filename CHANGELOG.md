@@ -86,3 +86,4 @@
   header pins/Dupont wires, optional replacement 4-pin ESFloppy LCD
 - Added a photographed step-by-step build for Design B (ESFloppy and power on the front), resized to web JPEGs under `images/design_b_assembly/`
 - Split ASSEMBLY.md and BOM.md into standalone `docs/design_a/` and `docs/design_b/` guides; the old files now point to them
+- Linked the YouTube assembly video (builds Design B, a superset of Design A's steps)

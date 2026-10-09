@@ -6,6 +6,11 @@ rear of the case. Parts are listed in [`BOM.md`](BOM.md). Printed parts
 come from `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Back/`
 and `models/print-ready/common/`.
 
+An [assembly video](https://youtu.be/3yojjUhr7K4) is available. It builds Design B, which is a
+superset of these steps: everything here is shown, plus the ESFloppy and
+power button modifications that Design A skips (the ESFloppy shroud and the
+power button cutout are Design A only).
+
 Looking for the version that moves the ESFloppy screen, buttons and power
 button to the front? See [Design B](../design_b/ASSEMBLY.md).
 

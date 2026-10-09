@@ -8,4 +8,8 @@ There are two designs. Pick one and follow its guide:
   screen, buttons and a lit power button to the front; requires soldering
   to the LisaFPGA
 
+An [assembly video](https://youtu.be/3yojjUhr7K4) is also available. It builds Design B, which
+includes every step of Design A plus the extra modifications, so it works
+for either design.
+
 See the [README](../README.md#choose-your-design) for a comparison.

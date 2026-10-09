@@ -8,6 +8,8 @@ in [`BOM.md`](BOM.md). Printed parts come from
 `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/` and
 `models/print-ready/common/`.
 
+Watch the [assembly video](https://youtu.be/3yojjUhr7K4) for this build.
+
 Prefer to leave the board untouched? See
 [Design A](../design_a/ASSEMBLY.md).
 
