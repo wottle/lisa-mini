@@ -29,7 +29,8 @@ leaves the board untouched, see [Design A](../design_a/BOM.md).
 |---|---|
 | 1 | `Lisa_Mini_Front_With_ESFloppy_Screen.obj` |
 | 1 | `Lisa_Mini_Front_With_ESFloppy_Slot_Filler_Black.obj` — print in black |
-| 1 | `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj` |
+| 1 | `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj` — prints without supports |
+| 1 | **Choose one** skirt, glued to the back shell after printing: `Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj` (cable passthrough) or `Choose_One_Lisa_Mini_Skirt_No_Cable_Cutout.obj` (solid, for wireless accessories) |
 | 1 | `Lisa_Mini_ESFloppy_Screen_Clip.obj` |
 | 1 | `Lisa_Mini_ESFloppy_Button_Cap.obj` |
 | 3 | `Lisa_Mini_ESFloppy_Button_Inner_qty3.obj` — single part, print 3 copies |

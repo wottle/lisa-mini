@@ -28,6 +28,11 @@ separate:
   before final assembly
 - Clean up any stringing/support marks around the vent lines and screen
   opening
+- Glue the skirt (`Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj`
+  or `..._No_Cable_Cutout.obj`) to the back shell and let it set. Pick the
+  cutout for a cable passthrough, or the solid one if you use wireless
+  accessories. (There's no photo of this step; the author glued the
+  skirt on before taking the build photos.)
 - **Flash [the LisaFPGA fork](https://github.com/wottle/LisaFPGA) before
   assembling the case.** It adds the image offset this case needs, plus
   USB host improvements (USB hub support for keyboards and mice) and

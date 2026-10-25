@@ -27,7 +27,8 @@ version, see [Design B](../design_b/BOM.md).
 | Qty | File |
 |---|---|
 | 1 | `Lisa_Mini_Front.obj` |
-| 1 | `Lisa_Mini_Back_LisaFPGA.obj` |
+| 1 | `Lisa_Mini_Back_LisaFPGA.obj` — prints without supports |
+| 1 | **Choose one** skirt, glued to the back shell after printing: `Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj` (cable passthrough) or `Choose_One_Lisa_Mini_Skirt_No_Cable_Cutout.obj` (solid, for wireless accessories) |
 | 1 | `Lisa_Mini_ESFloppy_Shroud.obj` — dresses up the rear ESFloppy screen opening; print in black, no supports needed. Fit isn't perfect and needs a bit of glue to hold — see [ASSEMBLY.md](ASSEMBLY.md) |
 
 ## Electronics

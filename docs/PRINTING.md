@@ -7,7 +7,7 @@
 | Wall thickness | ~2.4mm (2 perimeters at 0.4mm nozzle, or adjust to match) |
 | Infill | 15–20% |
 | Layer height | 0.2mm for all parts, except the two logo plates (`Lisa_Mini_Lisa_Logo_Plate.obj`, `Lisa_Mini_Manufacturer_Blank_Logo_Plate.obj`) — 0.12mm with ironing enabled, for surface quality |
-| Supports | Front and back both need supports (see below) |
+| Supports | Front only; the back prints without supports (see below) |
 | Bed size required | 350mm — the model is 330mm wide |
 
 ## Orientation
@@ -44,17 +44,29 @@ currently no version of this design pre-split for smaller beds.
 
 ## Supports
 
-The design was optimized to minimize supports overall, but both shells
-currently need them:
+Only the front shell needs supports:
 
-- **Back** (`Lisa_Mini_Back_LisaFPGA.obj`) — the skirt between the legs is
-  the cause. It's possible to remove that skirt to eliminate most/all of
-  the back's support requirement, but that variant hasn't been made yet.
+- **Back** — no supports. The skirt between the legs, which used to be the
+  cause, is now a separate part that you print on its own and glue on after
+  printing. This saves hours of print time and a lot of support filament.
+  Print one of the two skirt variants for your design (see
+  [Skirt](#skirt)).
 - **Front** (`Lisa_Mini_Front.obj`) —
   needed under the logo plate badge holder area. A PETG support interface
   layer was used there to improve surface quality, though it matters less
   than usual since a logo plate gets inserted into that area anyway,
   covering it.
+
+## Skirt
+
+The back shell's front skirt is its own part. **Print one** skirt for your
+design, then glue it to the back shell after printing (see the assembly
+guide):
+
+| Variant | Use it if |
+|---|---|
+| `Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj` (in either design's folder) | You want a cable passthrough |
+| `Choose_One_Lisa_Mini_Skirt_No_Cable_Cutout.obj` (in either design's folder) | You use wireless accessories and want it solid |
 
 Print the LCD mount clips (`Lisa_Mini_LCD_Mount_Clips.obj`) and the power
 switch (`Lisa_Mini_Power_Switch.obj`) on the same plate as the front

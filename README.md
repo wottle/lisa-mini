@@ -20,8 +20,9 @@ lines, a screen that leans back while the case stays vertical, and integrated
 L-shaped feet with no visible seams between leg and case.
 
 Designed for FDM printing, optimized to minimize supports where possible —
-though both the front and back shells currently do need some supports
-(see [Printing](#printing) below).
+though the front shell still needs some supports (see
+[Printing](#printing) below). The back shell prints without supports,
+because its front skirt is a separate piece that you glue on afterward.
 
 There's no built-in FloppyEmu, because the LisaFPGA has a floppy emulator
 built in (ESFloppy) — no separate hardware needed. There are two designs
@@ -86,7 +87,8 @@ the `common/` parts.
 | File | Part |
 |---|---|
 | `Lisa_Mini_Front.obj` | Front bezel / LCD mount |
-| `Lisa_Mini_Back_LisaFPGA.obj` | Rear shell, sized for the LisaFPGA board |
+| `Lisa_Mini_Back_LisaFPGA.obj` | Rear shell, sized for the LisaFPGA board; prints without supports |
+| `Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj` or `..._No_Cable_Cutout.obj` | Front skirt, glued to the rear shell after printing. Pick the cutout for a cable passthrough, or the solid one if you use wireless accessories |
 | `Lisa_Mini_ESFloppy_Shroud.obj` | Dresses up the rear ESFloppy screen opening, which currently sits well below the back surface |
 
 **ESFloppy on front** -- `models/print-ready/Lisa_Mini_With_ESFloppy_Screen_And_Buttons_On_Front/`
@@ -95,7 +97,8 @@ the `common/` parts.
 |---|---|
 | `Lisa_Mini_Front_With_ESFloppy_Screen.obj` | Front bezel with the ESFloppy screen opening |
 | `Lisa_Mini_Front_With_ESFloppy_Slot_Filler_Black.obj` | Black slot filler for the front |
-| `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj` | Rear shell with no ESFloppy window or buttons |
+| `Lisa_Mini_Back_LisaFPGA_ESFloppy_Moved_To_Front.obj` | Rear shell with no ESFloppy window or buttons; prints without supports |
+| `Choose_One_Lisa_Mini_Skirt_With_Cable_Cutout.obj` or `..._No_Cable_Cutout.obj` | Front skirt, glued to the rear shell after printing. Pick the cutout for a cable passthrough, or the solid one if you use wireless accessories |
 | `Lisa_Mini_ESFloppy_Screen_Clip.obj` | Holds the ESFloppy screen |
 | `Lisa_Mini_ESFloppy_Button_Cap.obj` | ESFloppy button cap |
 | `Lisa_Mini_ESFloppy_Button_Inner_qty3.obj` | Button inner part (single part; print 3 copies) |
@@ -168,8 +171,9 @@ See [`docs/PRINTING.md`](docs/PRINTING.md). Quick summary:
 - Wall thickness: ~2.4mm
 - Infill: 15–20%
 - Bed size: 350mm — the model is 330mm wide (front face down, back face up)
-- Both front and back shells currently need supports — back for the skirt
-  between the legs, front for the logo plate badge holder area
+- The back shell prints without supports; its front skirt is a separate
+  part that you glue on after printing. Only the front shell needs supports,
+  under the logo plate badge holder area
 - Front/back shells press-fit together (alignment bumps, no screws);
   everything else uses M3x4mm screws
 

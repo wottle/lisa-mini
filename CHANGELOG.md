@@ -87,3 +87,4 @@
 - Added a photographed step-by-step build for Design B (ESFloppy and power on the front), resized to web JPEGs under `images/design_b_assembly/`
 - Split ASSEMBLY.md and BOM.md into standalone `docs/design_a/` and `docs/design_b/` guides; the old files now point to them
 - Linked the YouTube assembly video (builds Design B, a superset of Design A's steps)
+- Split the back shell's front skirt into its own part so both back shells print without supports; glue it on after printing. Choose a variant with a cable-passthrough cutout or a solid one (for wireless accessories) for each design
