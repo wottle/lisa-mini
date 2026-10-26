@@ -88,3 +88,9 @@ making it much easier to separate the shells for maintenance.
 - A few capacitors across the LCD and LisaFPGA power rails, to smooth
   inrush/startup current draw — not required, but helps if you see
   brownout/reset issues at power-on
+- A [40 x 40 x 10mm, 5V Noctua fan](https://a.co/d/02EUyiBr) for the back shell's fan mount, wired to
+  the LisaFPGA's 3V3 and GND pins on the JTAG header pins (see the Optional
+  add-ons section of [ASSEMBLY.md](ASSEMBLY.md))
+- A Seeed XIAO ESP32S3 with U.FL antenna, plus Dupont wires, for the optional
+  [LisaNet](https://github.com/wottle/LisaFPGA/blob/main/docs/lisanet_setup.md)
+  WiFi add-on

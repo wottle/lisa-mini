@@ -156,3 +156,25 @@ separate:
    - Power on and verify display output before fully closing up the case
    - Plug a USB keyboard and mouse (directly or through a hub) into the
      LisaFPGA and confirm both respond
+
+## Optional add-ons
+
+### Cooling fan
+
+The back shell has a mount for a 40mm fan above the FPGA chip. The author uses
+a 40 x 40 x 10mm Noctua fan rated for 5V. It runs from the 3V3 and GND pins of
+the LisaFPGA's JTAG header pins (not from the 5V supply). At 3.3V the fan
+turns more slowly and quietly, and the author reports that it cools well.
+Check the fan's polarity before connecting it.
+
+### LisaNet (remote control over WiFi)
+
+You can add a Seeed XIAO ESP32S3 to the LisaFPGA's J21 header to get WiFi, a
+web page at `http://lisanet.local/` for managing the ESFloppy and ESProFile SD
+cards and the on-screen menu settings, remote power and reset buttons, and
+FujiNet support. It is part of
+[the LisaFPGA fork](https://github.com/wottle/LisaFPGA), so it needs no extra
+firmware flashing beyond what the fork's `program_board.sh` already does.
+The wiring and setup are covered in the fork's
+[LisaNet setup guide](https://github.com/wottle/LisaFPGA/blob/main/docs/lisanet_setup.md).
+Flash and test the XIAO before closing the case.
